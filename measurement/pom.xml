@@ -61,6 +61,12 @@
 
   <dependencies>
 
+    <dependency>
+      <groupId>io.github.terahidro2003</groupId>
+      <artifactId>sjsw</artifactId>
+      <version>0.1.3-SNAPSHOT</version>
+    </dependency>
+
     <!-- For execution, it is assumed that the kieker aspectJ-jar is in the local .m2 directory; no need for inclusion in jar, therefore scope runtime -->
     <dependency>
       <groupId>net.kieker-monitoring</groupId>
@@ -69,12 +75,6 @@
       <classifier>aspectj</classifier>
       <scope>runtime</scope>
     </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-      <version>3.14.0</version>
-    </dependency>
-
 
 
     <!-- Do not upgrade until whole project switches to Java 11, since jgrapht 1.5 is only available for Java 11 -->
